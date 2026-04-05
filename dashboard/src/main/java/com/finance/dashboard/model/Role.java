@@ -1,4 +1,7 @@
 package com.finance.dashboard.model;
 
-public class Role {
+public enum Role {
+    VIEWER,
+    ANALYST,
+    ADMIN
 }
